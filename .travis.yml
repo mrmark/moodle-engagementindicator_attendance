@@ -30,7 +30,7 @@ before_install:
 
 install:
   - moodle-plugin-ci add-plugin netspotau/moodle-mod_engagement
-  - moodle-plugin-ci install
+  - moodle-plugin-ci install -vvv
 
 script:
   - moodle-plugin-ci phplint
